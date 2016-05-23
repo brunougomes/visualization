@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>D3 - Teste</title>
+	<meta charset="utf-8" />
+    <link href="css/main_style.css" rel="stylesheet" />
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/d3.min.js"></script>
+    <script src="js/link_node.js"></script>
+</head>
+<body>
+    <div class="page">
+        <div>
+            <h1>D301 - Visualizador de Relacionamento</h1>
+        </div>
+
+        <div class="description">
+            <p>
+                Nessa aplicação foi criado um json com todas as OML de um ambiente Outsystems e a relação de dependencia que elas possuem entre si.
+            </p>
+            <p>
+                Pode-se concluir que o <b>ServiceCenter</b> está relacionado de alguma forma com a maioria das aplicações, uma vez que ele gerencia cada OML criado no ambiente.
+                <b>RichWidgets</b> é também utilizado em todas as aplicações, já que possui uma grande variedade de Web Blocks.
+                E <b>Users</b> também é um recurso muito utilizado entre as aplicações.
+            </p>
+        </div>
+
+        <div id="canvas">
+
+        </div>
+    </div>
+</body>
+</html>
